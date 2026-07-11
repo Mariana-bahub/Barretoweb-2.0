@@ -962,24 +962,3 @@ visibility:visible;
 transform:translateY(-5px);
 
 }
-.logo{
-    display:flex;
-    align-items:center;
-    gap:10px;
-}
-
-.logo img{
-    width:42px;
-    height:42px;
-    object-fit:contain;
-}
-
-.logo span{
-    color:#fff;
-    font-size:30px;
-    font-weight:700;
-}
-
-.logo strong{
-    color:#4F8CFF;
-}
