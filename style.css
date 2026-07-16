@@ -151,12 +151,17 @@ font-weight:800;
 
 }
 
-.logo span{
+.marca{
+    color:#fff;
+    font-size:34px;
+    font-weight:800;
+}
 
-background:var(--gradient);
--webkit-background-clip:text;
--webkit-text-fill-color:transparent;
-
+.web{
+    background: var(--gradient);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+      
 }
 
 nav{
