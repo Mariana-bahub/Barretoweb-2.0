@@ -967,23 +967,23 @@ visibility:visible;
 transform:translateY(-5px);
 
 }
-..logo{
+.logo{
     display:flex;
     align-items:center;
-    gap:12px;
+    gap:10px;
     text-decoration:none;
     font-size:34px;
     font-weight:800;
-    color:#fff;
 }
 
 .logo img{
     width:55px;
     height:55px;
     object-fit:contain;
-    flex-shrink:0;
 }
 
-.logo .web{
-    color:#4f8cff;
+.logo span{
+    background:var(--gradient);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
 }
