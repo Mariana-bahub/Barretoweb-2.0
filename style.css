@@ -987,3 +987,7 @@ transform:translateY(-5px);
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
 }
+
+.logo .web{
+    color:#4f8cff;
+}
