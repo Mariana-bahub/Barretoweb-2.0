@@ -967,24 +967,23 @@ visibility:visible;
 transform:translateY(-5px);
 
 }
-.logo{
+..logo{
     display:flex;
     align-items:center;
-    gap:10px;
+    gap:12px;
+    text-decoration:none;
+    font-size:34px;
+    font-weight:800;
+    color:#fff;
 }
 
 .logo img{
-    width:70px;
-    height:70px;
+    width:55px;
+    height:55px;
     object-fit:contain;
+    flex-shrink:0;
 }
 
-.logo span{
-    color:#fff;
-    font-size:30px;
-    font-weight:700;
-}
-
-.logo strong{
-    color:#4F8CFF;
+.logo .web{
+    color:#4f8cff;
 }
