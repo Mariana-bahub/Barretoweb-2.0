@@ -983,9 +983,14 @@ transform:translateY(-5px);
 }
 
 .logo span{
-    background:var(--gradient);
-    -webkit-background-clip:text;
-    -webkit-text-fill-color:transparent;
+    color:#ffffff;
+}
+
+.logo .web{
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 
 .logo .web{
